@@ -12,8 +12,6 @@ header:
       zh-Hant : &ZH_HANT  歸檔
       zh-TW   : *ZH_HANT
       zh-HK   : *ZH_HANT
-      ko      : &KO       아카이브
-      ko-KR   : *KO
     url: /archive.html
 
   - titles:
@@ -29,6 +27,12 @@ header:
       zh-Hant : &ZH_HANT  關於
       zh-TW   : *ZH_HANT
       zh-HK   : *ZH_HANT
-      ko      : &KO       소개
-      ko-KR   : *KO
     url: /about.html
+
+sidebar:
+  - title:      Start
+    children:
+      - title:  Quick Start
+        url:    /docs/en/quick-start
+      - title:  Structure
+        url:    /docs/en/structure
