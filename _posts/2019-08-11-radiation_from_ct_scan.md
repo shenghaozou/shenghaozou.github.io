@@ -1,5 +1,5 @@
 ---
-title: 来自CT扫描的辐射
+title: CT扫描的辐射
 tags: 未分类
 ---
 
@@ -46,4 +46,3 @@ GIST援助国际向杜克大学医学院的管理总监 Donald P. Frush 请教�
 &nbsp;
 
 &nbsp;
-

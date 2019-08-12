@@ -30,7 +30,7 @@ layout: base
 
 {%- assign _article_header_excerpt_truncate = include.excerpt_truncate | default: 200 -%}
 
-{%- if page.sidebar -%}
+{%- if site.data.navigation.sidebar -%}
 <div class="layout--page layout--page--sidebar clearfix js-page-root">
   <div class="page__mask d-print-none js-page-mask js-sidebar-hide"></div>
   <div class="page__viewport">
@@ -48,7 +48,7 @@ layout: base
 
 {%- else -%}
 <div class="layout--page js-page-root">
-<h1> NO SIDEBAR!!! </h1>
+<h1> SITE ERROR: NO SIDEBAR LOADED. </h1>
 {%- endif -%}
 
     {%- assign _page_main_class = 'page__main js-page-main' -%}

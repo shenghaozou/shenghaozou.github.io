@@ -1,6 +1,6 @@
-{%- if page.sidebar.nav -%}
+{%- if site.data.navigation.sidebar -%}
   <div class="sidebar-toc">
-    {%- assign _sidebar_nav = site.data.navigation[page.sidebar.nav] -%}
+    {%- assign _sidebar_nav = site.data.navigation.sidebar -%}
     {%- if _sidebar_nav -%}
     <ul class="toc toc--navigator">
       {%- for _item in _sidebar_nav -%}

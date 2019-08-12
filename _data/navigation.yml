@@ -30,9 +30,137 @@ header:
     url: /about.html
 
 sidebar:
-  - title:      Start
+  - title:      新患者指引
     children:
-      - title:  Quick Start
-        url:    /docs/en/quick-start
-      - title:  Structure
-        url:    /docs/en/structure
+      - title:  奇迹 - 从Marina的故事讲起
+        url:    2019/08/11/miracle_from_the_story_of_marina.md
+      - title:  胃肠间质瘤简介
+        url:    2019/08/11/frequently_asked_questions_in_patients_with_gastrointestinal_stromal_tumors.html
+      - title:  胃肠间质瘤的诊断
+        url:    2019/08/11/diagnosis_of_gastrointestinal_stromal_tumors.html
+      - title:  致新患者：手术后我需要了解些什么？
+        url:    2019/08/11/to_new_patients_what_do_i_need_to_know_after_the_operation.html
+      - title:  基因检测
+        url:    2019/08/11/genetic_testing.html
+      - title:  理解您的病理学报告
+        url:    2019/08/11/understand_your_pathology_report.html
+      - title:  预防癌症的饮食
+        url:    2019/08/11/cancer_prevention_diet.html
+      - title:  日常监测指标
+        url:    2019/08/11/daily_monitoring_indicators.html
+      - title:  靶向药物与化疗药物
+        url:    2019/08/11/gastrointestinal_stromal_tumor_targeting_drugs_and_chemotherapy_drugs.html
+      - title:  胃肠间质瘤的预后
+        url:    2019/08/11/prognosis_of_gastrointestinal_stromal_tumors.html
+      - title:  不为丢失“正常的生活”而悲伤
+        url:    2019/08/11/don_39_t_be_sad_for_losing_quot_normal_life_quot.html
+      - title:  理性面对癌症
+        url:    2019/08/11/rational_face_cancer.html
+      - title:  接受诊断的过程
+        url:    2019/08/11/the_process_of_being_diagnosed.html
+      - title:  迎接您的医护人员
+        url:    2019/08/11/greet_your_healthcare_staff.html
+      - title:  胃肠间质瘤会遗传吗
+        url:    2019/08/11/is_gastrointestinal_stromal_tumor_inherited.html
+      - title:  常见问题
+        url:    2019/08/11/frequently_asked_questions_in_patients_with_gastrointestinal_stromal_tumors.html
+
+  - title:      药物
+    children:
+      - title:  格列卫基本知识
+        url:    2019/08/11/gleevec_basic_knowledge.html
+      - title:  格列卫辅助治疗
+        url:    2019/08/11/gleevec_adjuvant_therapy.html
+      - title:  格列卫的副作用
+        url:    2019/08/11/gleevec_39_s_side_effects.html
+      - title:  格列卫副作用 – 水肿
+        url:    2019/08/11/gleevec_side_effects_edema.html
+      - title:  格列卫副作用 - 眼部充血
+        url:    2019/08/11/gleevec_side_effects_eye_congestion.html
+      - title:  格列卫副作用 - 疲劳
+        url:    2019/08/11/gleevec_side_effects_fatigue.html
+      - title:  格列卫副作用 - 口疮
+        url:    2019/08/11/gleevec_side_effects_mouth_sores.html
+      - title:  格列卫副作用 – 皮疹
+        url:    2019/08/11/gleevec_side_effects_rash.html
+      - title:  舒尼替尼（索坦）的副作用及管理
+        url:    2019/08/11/side_effects_and_management_of_sunitinib_sotan.html
+      - title:  索坦的副作用 - 患者经验
+        url:    2019/08/11/side_effects_of_suttan_patient_experience.html
+      - title:  格列卫和舒尼替尼在皮肤方面的副作用
+        url:    2019/08/11/skin_side_effects_of_gleevec_and_sunitinib.html
+      - title:  舒尼替尼与高血压
+        url:    2019/08/11/sunitinib_and_hypertension_expert_questions.html
+      - title:  舒尼替尼（索坦）使用经验
+        url:    2019/08/11/sunitinib_suttan_experience_expert_q_a.html
+      - title:  甲状腺问题
+        url:    2019/08/11/thyroid_problem.html
+      - title:  酪氨酸激酶抑制剂对甲状腺的损伤
+        url:    2019/08/11/tyrosine_kinase_inhibitor_damage_to_the_thyroid_gland.html
+      - title:  瑞戈菲尼
+        url:    2019/08/11/rigofini.html
+      - title:  索拉非尼
+        url:    2019/08/11/sorafenib_nexavar.html
+      - title:  西罗莫司
+        url:    2019/08/11/sirolimus_temsirolimus.html
+      - title:  BLU 285
+        url:    2019/08/11/sirolimus_temsirolimus.html
+
+  - title:      诊断
+    children:
+      - title:  9突变与11突变
+        url:    2019/08/11/9_mutations_and_11_mutations.html
+      - title:  胃肠道间质瘤中的抗性突变
+        url:    2019/08/11/resistance_mutations_in_gastrointestinal_stromal_tumors.html
+      - title:  活检
+        url:    2019/08/11/biopsy_samples_and_reports_of_gastrointestinal_stromal_tumors.html
+      - title:  病理学问题和术语
+        url:    2019/08/11/gastrointestinal_stromal_tumor_pathology_problems_and_terminology.html
+      - title:  胃肠间质瘤的病理学样本
+        url:    2019/08/11/pathological_sample_of_gastrointestinal_stromal_tumor.html
+      - title:  胃肠道间质瘤的病理学分析
+        url:    2019/08/11/pathological_analysis_of_gastrointestinal_stromal_tumors.html
+      - title:  从病理科获得额外的病理学样本
+        url:    2019/08/11/obtain_additional_pathology_samples_from_the_pathology_department.html
+      - title:  更多病理学资源
+        url:    2019/08/11/more_pathology_resources.html
+      - title:  基因检测
+        url:    2019/08/11/genetic_testing.html
+
+  - title:      影像学与放射科
+    children:
+      - title:  放疗是否有效
+        url:    2019/08/11/gastrointestinal_stromal_tumor_radiation_therapy_expert_answer.html
+      - title:  CT和MRI的比较
+        url:    2019/08/11/ct_and_mri_comparison.html
+      - title:  PET扫描 1
+        url:    2019/08/11/2019-08-11-pet_scanning.html
+      - title:  PET扫描 2
+        url:    2019/08/11/application_of_pet_scanning_in_gastrointestinal_stromal_tumors_expert_q_a.html
+      - title:  CT与肌酸酐水平的提高
+        url:    2019/08/11/improvement_of_creatinine_level_and_ct_computed_tomography.html
+      - title:  CT扫描的辐射
+        url:    2019/08/11/radiation_from_ct_scan.html
+
+  - title:      专家&指南
+    children:
+      - title:  胃肠间质瘤规范化外科治疗专家共识
+        url:    http://surg.dxy.cn/article/581793
+      - title:  NCCN临床实践指南
+        url:    http://guide.medlive.cn/guideline/17137
+  - title:      杂项
+    children:
+      - title:  FDA批准延长格列卫用于辅助治疗至3年
+        url:    2019/08/11/fda_approves_extended_gleevec_for_adjuvant_therapy_up_to_3_years.html
+      - title:  NF1患者中的胃肠间质瘤
+        url:    2019/08/11/gastrointestinal_stromal_tumors_in_patients_with_neurofibromatosis_type_1_nf1.html
+      - title:  肝动脉栓塞
+        url:    2019/08/11/hepatic_artery_embolization_expert_answer.html
+      - title:  外科手术顾虑：切缘、粘连和纤维瘤
+        url:    2019/08/11/surgical_concerns_margins_adhesions_and_fibroids_doubt.html
+  - title:      致谢
+    children:
+      - title:  希望
+        url:    2019/08/11/our_hope.html
+      - title:  致谢
+        url:    2019/08/11/acknowledgement.html

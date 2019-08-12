@@ -16,19 +16,36 @@ titles:
   ko      : &KO       홈
   ko-KR   : *KO
 show_title: false
-articles:
-  data_source: paginator.posts
-  article_type: BlogPosting
-  show_cover: false
-  show_excerpt: true
-  show_readmore: true
-  show_info: true
 ---
-<div class="layout--home">
-  {%- include paginator.html -%}
-</div>
-<script>
-  {%- include scripts/home.js -%}
-</script>
+
+{%- if site.data.navigation.sidebar -%}
+  <h2> 站点目录 </h2>
+  <div class="homepage-toc">
+    {%- assign _sidebar_nav = site.data.navigation.sidebar -%}
+    {%- if _sidebar_nav -%}
+    <ul class="toc toc--navigator">
+      {%- for _item in _sidebar_nav -%}
+        <li class="toc-h1">{{ _item.title }}</li>
+        {%- if _item.children -%}
+          {%- for _child in _item.children -%}
+            {%- include snippets/get-nav-url.html path=_child.url -%}
+            {%- assign _nav_url = __return -%}
+            {%- include snippets/get-nav-url.html path=page.url -%}
+            {%- assign _page_url = __return -%}
+            {%- if _nav_url == _page_url -%}
+              <li class="toc-h2"><a href="{{ _nav_url }}">{{ _child.title }}</a></li>
+            {%- else -%}
+              <li class="toc-h2"><a href="{{ _nav_url }}">{{ _child.title }}</a></li>
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endif -%}
+      {%- endfor -%}
+
+      </ul>
+    {%- endif -%}
+  </div>
+{%- endif -%}
+<p>注：站点仍在更新中，目前由于迁移带来的一系列问题，表格等数据仍然有格式问题，修复中。如有其他疑问请联系gistsupport at 163.com 8/11/2019</p>
+
 
 {{ content }}

@@ -1,5 +1,5 @@
 ---
-title: 肌酸酐水平的提高及CT（电脑断层扫描）
+title: CT与肌酸酐水平的提高
 tags: 未分类
 ---
 
@@ -24,4 +24,3 @@ www.wikipedia.org/wiki/Acetylcysteine
 乙酰半胱氨酸被持续用来预防患有肾损害的病人突发急性肾衰竭。”
 
 文章来源于GIST国际支持。翻译质量由翻译者负责，与GIST国际支持无关。
-
