@@ -33,7 +33,7 @@ sidebar:
   - title:      新患者指引
     children:
       - title:  奇迹 - 从Marina的故事讲起
-        url:    2019/08/11/miracle_from_the_story_of_marina.md
+        url:    2019/08/11/miracle_from_the_story_of_marina.html
       - title:  胃肠间质瘤简介
         url:    2019/08/11/frequently_asked_questions_in_patients_with_gastrointestinal_stromal_tumors.html
       - title:  胃肠间质瘤的诊断
